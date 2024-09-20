@@ -21,7 +21,7 @@ export default function App() {
       if (localStorage.getItem(localKey)) {
         const data = JSON.parse(localStorage.getItem(localKey));
         setApiData(data);
-        console.log('Fetched data from cache today.\n',data);
+        console.log('Fetched data from cache today.');
         return;
       }
 
